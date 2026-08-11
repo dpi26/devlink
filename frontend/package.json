@@ -94,3 +94,17 @@
     "vite": "^8.0.16"
   }
 }
+{
+  "name": "project-search-api",
+  "version": "1.0.0",
+  "description": "Project search endpoint with filters, pagination, sorting - SQL injection safe",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node test/projectRepository.test.js"
+  },
+  "dependencies": {
+    "express": "^4.22.2",
+    "pg": "^8.22.0"
+  }
+}
